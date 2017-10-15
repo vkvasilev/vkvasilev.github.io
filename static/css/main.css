@@ -1,0 +1,81 @@
+html {
+font-family: Garamond;
+
+} 
+
+body  {
+background: #5f5f5f url(../images/background.png) top left repeat;
+}
+
+/* Header */
+.search-icons-container img {
+  height: 50px;
+  padding: 10px 5px;
+  cursor: pointer;
+}
+#advanced-search {
+  border: 2px solid silver;
+  border-radius:5px;
+  padding:5px;
+  width:70%;
+  box-shadow: 2px 2px 2px 0px rgba(35,32,31,0.35);
+}
+#search-button{
+  border: 1px solid silver;
+  border-radius: 4px;
+  margin-left:20px;
+  height: 25px
+}
+/* Navigation */
+.navigation-container .box {
+  border-bottom: 3px solid silver;
+  padding: 10px 5px;
+  font-size: 20px;
+
+}
+.navigation-container .box > a {
+  padding: 3px 55px;
+  box-shadow: 3px 3px 3px 1px rgba(35,32,31,0.50);
+ border-radius: 10px;
+ text-decoration: none;
+ color: red;
+}
+
+
+/* Articles */
+.article-container {
+  margin-top: 50px;
+  padding-bottom: 35px;
+}
+.text-container {
+  border: 2px solid black;
+  padding: 20px;
+  font-size: 22px;
+  box-shadow: 3px 3px 3px 2px black;
+  font-family: Garamond;
+}
+.calendar-container img{
+  height: 300px;
+}
+.technologies-container >p {
+  padding-left: 50px;
+  font-size: 30px;
+}
+.technologies-container p >a {
+  font-family: Georgia;
+  font-size: 25px;
+ text-decoration: none;
+ color:dark pink;
+}
+
+/* Footer */
+.footer-container {
+ border-top: 10px solid silver;
+ padding-top: 40px
+
+}
+.footer-container div >h3>a{
+  padding: 5px;
+  font-size: 20px;
+  font-style: italic;
+}
