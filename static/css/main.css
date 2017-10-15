@@ -29,7 +29,7 @@ background: #5f5f5f url(../images/background.png) top left repeat;
 /* Navigation */
 .navigation-container .box {
   border-bottom: 3px solid silver;
-  padding: 10px 5px;
+  padding: 5px 5px;
   font-size: 20px;
 
 }
